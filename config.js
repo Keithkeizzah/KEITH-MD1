@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://rb.gy/nl69nj";
+global.scan = "https://keithweb-85c830c44249.herokuapp.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝘨𝘳𝘦𝘢𝘵 𝘥𝘢𝘺 | 𝐊𝐄𝐈𝐓𝐇 𝐌𝐃",
+  caption: process.env.CAPTION || " 𝐊𝐄𝐈𝐓𝐇 𝐌𝐃",
   author: process.env.PACK_AUTHER || "𝐊𝐄𝐈𝐓𝐇",
   packname: process.env.PACK_NAME || "👁",
   botname: process.env.BOT_NAME || "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
