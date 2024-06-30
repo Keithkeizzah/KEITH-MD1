@@ -1,4 +1,11 @@
-//#ENJOY
+//M""MMMMM""M MM""""""""`M M""M M""""""""M M""MMMMM""MM          M"""""`'"""`YM M""""""'YMM 
+//M  MMMM' .M MM  mmmmmmmM M  M Mmmm  mmmM M  MMMMM  MM          M  mm.  mm.  M M  mmmm. `M 
+//M       .MM M`      MMMM M  M MMMM  MMMM M         `M          M  MMM  MMM  M M  MMMMM  M 
+//M  MMMb. YM MM  MMMMMMMM M  M MMMM  MMMM M  MMMMM  MM 88888888 M  MMM  MMM  M M  MMMMM  M 
+//M  MMMMb  M MM  MMMMMMMM M  M MMMM  MMMM M  MMMMM  MM          M  MMM  MMM  M M  MMMM' .M 
+//M  MMMMM  M MM        .M M  M MMMM  MMMM M  MMMMM  MM          M  MMM  MMM  M M       .MM 
+//MMMMMMMMMMM MMMMMMMMMMMM MMMM MMMMMMMMMM MMMMMMMMMMMM          MMMMMMMMMMMMMM MMMMMMMMMMM 
+                                                                                          
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
